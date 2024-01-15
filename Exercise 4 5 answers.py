@@ -1,10 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
 
 # No 1 question
-
-# In[1]:
-
 
 iterations =[1,2,3,4,5,6,7,8]
 for i in iterations:
@@ -17,64 +12,32 @@ for i in iterations:
     #there is always a \ before a special character since its not part of the code
 
 
-# In[ ]:
-
-
-
-
 
 # No 2 Question
-
-# In[1]:
-
 
 num=range(0,5)
 for i in num:
        print("**********")   
    
     
-    
 
-
-# 
 
 # Question No 3
-
-# In[2]:
-
 
 i=1
 for i in range(1,7):
     print(i)
 
 
+
+for i in range(1,7):
+    print(i*2)
     
-
-
-# In[37]:
 
 
 for i in range(1,7):
     print(i*2)
 
-
-    
-
-
-# In[ ]:
-
-
-
-
-
-# In[39]:
-
-
-for i in range(1,7):
-    print(i*2)
-
-
-# In[7]:
 
 
 k=30
@@ -85,15 +48,7 @@ for i in range(1,7):
         k=k-10
         print(k)
         
-        
-
-
     
-
-
-# In[9]:
-
-
 k=-7
 for i in range(1,7):
     if i==1:
@@ -102,20 +57,6 @@ for i in range(1,7):
         k=k+4
         print(k)
         
-        
-
-
-    
-
-
-# In[ ]:
-
-
-
-
-
-# In[6]:
-
 
 k=4
 for i in range(1,7):
@@ -125,19 +66,6 @@ for i in range(1,7):
         k=k+15
         print(k)
         
-        
-
-
-    
-
-
-# In[ ]:
-
-
-
-
-
-# In[10]:
 
 
 k=97
@@ -149,14 +77,6 @@ for i in range(1,7):
         print(k)
         
         
-
-
-    
-
-
-# In[11]:
-
-
 k=-4
 for i in range(1,7):
     if i==1:
@@ -165,44 +85,12 @@ for i in range(1,7):
         k=k+18
         print(k)
         
-        
-
-
-    
-
-
-# In[ ]:
 
 
 
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# 
-
-# 
 
 # Question No 4
-
-# In[2]:
-
 
 # n represents the num er of desired occurence and printing of i
 # j represents the actual number in the occurrence
@@ -214,16 +102,9 @@ for i in range(1,n+1):
     print()
 
 
-# In[ ]:
-
-
-
 
 
 # Question No 5
-
-# In[47]:
-
 
 def pay (salary: float, hours_worked: int) -> float:
     normal_hours = 8
@@ -245,16 +126,10 @@ print (result1)
 print (result2)
 
 
-# In[ ]:
-
-
 
 
 
 # Question No 7
-
-# In[48]:
-
 
 import math
 
@@ -264,9 +139,6 @@ def area(radius):
 #example:
 result = area(2.0)
 print(result)
-
-
-# In[ ]:
 
 
 
@@ -286,9 +158,6 @@ for i in range(low,high):
     print("sum = " , sum)
 
 
-# In[57]:
-
-
 # modified version of the above codes to acccept inputs within specified range
 low = int(input("low? "))
 high = int(input("high? "))
@@ -300,16 +169,11 @@ for i in range(low, high):
 print("sum = ", sum_result)
 
 
-# In[ ]:
-
 
 
 
 
 # Question No 8
-
-# In[59]:
-
 
 sum_result = 0
 
@@ -328,16 +192,10 @@ while True:
 print("Sum of the numbers entered:", sum_result)
 
 
-# In[ ]:
-
-
 
 
 
 # Question No 9
-
-# In[60]:
-
 
 sum_result = 0
 
@@ -356,16 +214,11 @@ while True:
 print("Sum of the numbers entered:", sum_result)
 
 
-# In[ ]:
-
 
 
 
 
 # Question No 10
-
-# In[61]:
-
 
 def repl(word, repetitions):
     if repetitions <= 0:
@@ -381,10 +234,9 @@ result_zero_reps = repl("world", 0)
 print(result_zero_reps)  # Output: ""
 
 
+
+
 # QUestion No 11
-
-# In[76]:
-
 
 def printRange(start, end):
     result = ""
@@ -410,33 +262,6 @@ printRange(19, 11)
 
 printRange(5, 5)
 # Output: 5
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
