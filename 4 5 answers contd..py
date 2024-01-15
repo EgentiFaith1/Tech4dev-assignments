@@ -1,10 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
 
 # Question No 12
-
-# In[2]:
-
 
 def smallestLargest():
     try:
@@ -39,15 +34,10 @@ def smallestLargest():
 smallestLargest()
 
 
-# In[ ]:
-
-
 
 
 
 # Question Number 13
-
-# In[6]:
 
 
 def printAverage():
@@ -72,16 +62,10 @@ def printAverage():
 printAverage()
 
 
-# In[ ]:
-
-
 
 
 
 # Question Number 14
-
-# In[7]:
-
 
 def numUnique(num1, num2, num3):
     unique_numbers = set([num1, num2, num3])
@@ -95,16 +79,11 @@ result2 = numUnique(6, 7, 6)
 print(result2)  
 
 
-# In[ ]:
-
 
 
 
 
 # Question Number 15
-
-# In[10]:
-
 
 import random
 
@@ -129,15 +108,6 @@ def getaseven():
 
 #Example
 getaseven()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
